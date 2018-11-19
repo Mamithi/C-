@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
       5. Draw shapes on the image
      */
     
-    bool isSuccess = imwrite("./image.png", image); // write the image to a file as JPEG
+    bool isSuccess = imwrite("./image.jpeg", image); // write the image to a file as JPEG
 
     if(isSuccess == false) {
         cout << "Failed to save the image" << endl;
@@ -32,7 +32,7 @@ int main(int argc, char** argv) {
         return -1;
     }
 
-    cout << "IMage is successfully saved to a file" << endl;
+    cout << "Image is successfully saved to a file" << endl;
 
     String windowName = "The Saved Image";
 
