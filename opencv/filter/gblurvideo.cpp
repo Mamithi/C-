@@ -9,17 +9,16 @@ int main(int argc, char** argv) {
     VideoCapture cap("../video/sample.mp4");
 
     if(cap.isOpened() == false) {
-        cout << "Cannot open the video" << endl;
+        cout << "Cannot open the video file" << endl;
         cin.get();
         return -1;
     }
 
-    // Define window names
-    String windowName = "Original Video";
-    String windowNameBlurred5x5 = "Video blurred with 5x5 kernel";
+    String windowName = "Original video";
+    String windowNameBlurred3x3 = "Video blurred with 3x3 gaussian kernel";
 
     namedWindow(windowName);
-    namedWindow(windowNameBlurred5x5);
+    namedWindow(windowNameBlurred3x3);
 
     while(true) {
         Mat frame;
@@ -30,16 +29,17 @@ int main(int argc, char** argv) {
             break;
         }
 
-        Mat framBlurred5x5;
-        blur(frame, framBlurred5x5, Size(5, 5));
+        Mat frameBlurred;
+        GaussianBlur(frame, frameBlurred, Size(3, 3), 0);
 
         imshow(windowName, frame);
-        imshow(windowNameBlurred5x5, framBlurred5x5);
+        imshow(windowNameBlurred3x3, frameBlurred);
 
         if(waitKey(10) == 27) {
-            cout << "Esc key pressed by user. Stopping the video" << endl;
+            cout << "Esc key pressed by user. Stopping video" << endl;
             break;
         }
+
     }
 
     return 0;
