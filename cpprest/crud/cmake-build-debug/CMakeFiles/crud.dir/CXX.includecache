@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lawrence/Projects/C++/crud/Main.h
+cpprest/http_client.h
+-
+cpprest/filestream.h
+-
+cpprest/json.h
+-
+sstream
+-
+iostream
+-
+cpprest/containerstream.h
+/home/lawrence/Projects/C++/crud/cpprest/containerstream.h
+cpprest/producerconsumerstream.h
+/home/lawrence/Projects/C++/crud/cpprest/producerconsumerstream.h
+iostream
+-
+
+/home/lawrence/Projects/C++/crud/main.cpp
+iostream
+-
+Main.h
+/home/lawrence/Projects/C++/crud/Main.h
+
