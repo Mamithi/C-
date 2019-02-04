@@ -1,3 +1,0 @@
-/home/lawrence/Projects/C++/crud/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/lawrence/Projects/C++/crud/cmake-build-debug/CMakeFiles/crud.dir
-/home/lawrence/Projects/C++/crud/cmake-build-debug/CMakeFiles/edit_cache.dir

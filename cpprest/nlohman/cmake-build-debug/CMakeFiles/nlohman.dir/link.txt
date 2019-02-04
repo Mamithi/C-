@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/nlohman.dir/main.cpp.o  -o nlohman 

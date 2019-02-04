@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/crud2.dir/main.cpp.o  -o crud2 -lssl -lcrypto -lboost_system -lcpprest 

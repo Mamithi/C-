@@ -1,0 +1,3 @@
+/home/geo/Projects/C++/cpprest/nlohmann/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/geo/Projects/C++/cpprest/nlohmann/cmake-build-debug/CMakeFiles/nlohmann.dir
+/home/geo/Projects/C++/cpprest/nlohmann/cmake-build-debug/CMakeFiles/edit_cache.dir

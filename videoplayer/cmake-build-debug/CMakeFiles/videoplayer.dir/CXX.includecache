@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/geo/Projects/C++/videoplayer/main.cpp
+iostream
+-
+stdlib.h
+-
+zconf.h
+-
+assert.h
+-
+SDL2/SDL.h
+/home/geo/Projects/C++/videoplayer/SDL2/SDL.h
+SDL2/SDL_mutex.h
+/home/geo/Projects/C++/videoplayer/SDL2/SDL_mutex.h
+vlc/vlc.h
+/home/geo/Projects/C++/videoplayer/vlc/vlc.h
+

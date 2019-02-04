@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/geo/Projects/C++/play_vedio/main.cpp
+SDL2/SDL.h
+/home/geo/Projects/C++/play_vedio/SDL2/SDL.h
+SDL2/SDL_mixer.h
+/home/geo/Projects/C++/play_vedio/SDL2/SDL_mixer.h
+

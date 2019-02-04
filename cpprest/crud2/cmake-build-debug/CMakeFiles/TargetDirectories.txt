@@ -1,0 +1,3 @@
+/home/geo/Projects/C++/cpprest/crud2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/geo/Projects/C++/cpprest/crud2/cmake-build-debug/CMakeFiles/crud2.dir
+/home/geo/Projects/C++/cpprest/crud2/cmake-build-debug/CMakeFiles/edit_cache.dir

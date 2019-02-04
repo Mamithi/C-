@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/play_vedio.dir/main.cpp.o  -o play_vedio -lvlc -lSDL2 -lSDL2_mixer -lSDL2_image -lSDL2_ttf 

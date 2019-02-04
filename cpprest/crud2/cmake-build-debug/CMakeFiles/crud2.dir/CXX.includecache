@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/geo/Projects/C++/cpprest/crud2/Main.h
+cpprest/http_client.h
+-
+cpprest/filestream.h
+-
+cpprest/json.h
+-
+sstream
+-
+iostream
+-
+cpprest/containerstream.h
+/home/geo/Projects/C++/cpprest/crud2/cpprest/containerstream.h
+cpprest/producerconsumerstream.h
+/home/geo/Projects/C++/cpprest/crud2/cpprest/producerconsumerstream.h
+nlohmann/json.hpp
+-
+iostream
+-
+iomanip
+-
+
+/home/geo/Projects/C++/cpprest/crud2/main.cpp
+iostream
+-
+Main.h
+/home/geo/Projects/C++/cpprest/crud2/Main.h
+
