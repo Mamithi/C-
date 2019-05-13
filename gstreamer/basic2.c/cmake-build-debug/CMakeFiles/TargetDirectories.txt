@@ -1,0 +1,3 @@
+/home/geo/Projects/C++/gstreamer/basic2.c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/geo/Projects/C++/gstreamer/basic2.c/cmake-build-debug/CMakeFiles/basic2_c.dir
+/home/geo/Projects/C++/gstreamer/basic2.c/cmake-build-debug/CMakeFiles/edit_cache.dir

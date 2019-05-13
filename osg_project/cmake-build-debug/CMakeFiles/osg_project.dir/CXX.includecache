@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/geo/Projects/C++/osg_project/main.cpp
+iostream
+-
+osg/Group
+-
+osg/Node
+-
+osgDB/ReadFile
+-
+osgViewer/Viewer
+-
+osgGA/TrackballManipulator
+-
+

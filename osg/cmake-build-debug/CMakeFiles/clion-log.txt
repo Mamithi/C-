@@ -1,0 +1,21 @@
+/opt/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/geo/Projects/C++/osg
+-- Could NOT find OpenThreads (missing: OPENTHREADS_LIBRARY) 
+-- Could NOT find osg (missing: OSG_LIBRARY) 
+-- Could NOT find osgDB (missing: OSGDB_LIBRARY) 
+-- Could NOT find osgUtil (missing: OSGUTIL_LIBRARY) 
+-- Could NOT find osgViewer (missing: OSGVIEWER_LIBRARY) 
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+OPENTHREADS_LIBRARY
+    linked by target "osg" in directory /home/geo/Projects/C++/osg
+OSGDB_LIBRARY
+    linked by target "osg" in directory /home/geo/Projects/C++/osg
+OSGUTIL_LIBRARY
+    linked by target "osg" in directory /home/geo/Projects/C++/osg
+OSGVIEWER_LIBRARY
+    linked by target "osg" in directory /home/geo/Projects/C++/osg
+OSG_LIBRARY
+    linked by target "osg" in directory /home/geo/Projects/C++/osg
+
+-- Configuring incomplete, errors occurred!
+See also "/home/geo/Projects/C++/osg/cmake-build-debug/CMakeFiles/CMakeOutput.log".

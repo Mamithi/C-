@@ -1,0 +1,3 @@
+/home/geo/Projects/C++/SimpleCppRest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/geo/Projects/C++/SimpleCppRest/cmake-build-debug/CMakeFiles/SimpleCppRest.dir
+/home/geo/Projects/C++/SimpleCppRest/cmake-build-debug/CMakeFiles/edit_cache.dir

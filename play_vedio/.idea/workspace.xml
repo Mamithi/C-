@@ -12,61 +12,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62294e96-bf3a-417c-b0fb-e5eb479b5826" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../cpprest/crud2/Main.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cpprest/nlohman/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cpprest/nlohman/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cpprest/nlohman/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cpprest/nlohman/.idea/nlohman.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cpprest/nlohman/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cpprest/nlohman/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cpprest/nlohman/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cpprest/nlohman/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../videoplayer/play_video.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/.idea/crud.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/Main.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/crud.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/crud.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/crud.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/crud.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/crud.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/crud.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/crud.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/crud.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/crud.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/crud.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/crud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/cmake-build-debug/crud.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cpprest/crud/main.cpp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../osg/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../osg_project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../osg_project/osg_files/avatar.osg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../osg_project/osg_files/cow.osg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-maps/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpprest/crud2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cpprest/crud2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpprest/crud2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cpprest/crud2/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpprest/crud2/Main.h" beforeDir="false" afterPath="$PROJECT_DIR$/../cpprest/crud2/Main.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpprest/crud2/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpprest/crud2/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpprest/crud2/cmake-build-debug/crud2" beforeDir="false" afterPath="$PROJECT_DIR$/../cpprest/crud2/cmake-build-debug/crud2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/play_vedio.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/play_vedio.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/play_vedio" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/play_vedio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../videoplayer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../videoplayer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../videoplayer/cmake-build-debug/CMakeFiles/videoplayer.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../videoplayer/cmake-build-debug/CMakeFiles/videoplayer.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../videoplayer/cmake-build-debug/videoplayer" beforeDir="false" afterPath="$PROJECT_DIR$/../videoplayer/cmake-build-debug/videoplayer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../videoplayer/main" beforeDir="false" afterPath="$PROJECT_DIR$/../videoplayer/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../videoplayer/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../videoplayer/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="240">
+              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -113,10 +78,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="993" />
-    <option name="y" value="27" />
-    <option name="width" value="917" />
-    <option name="height" value="1053" />
+    <option name="x" value="722" />
+    <option name="y" value="25" />
+    <option name="width" value="1198" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -132,11 +97,6 @@
               <item name="play_vedio" type="b2602c69:ProjectViewProjectNode" />
               <item name="play_vedio" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="play_vedio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="play_vedio" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -145,6 +105,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vlc-qt" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -187,16 +148,18 @@
       <workItem from="1549262312003" duration="1197000" />
       <workItem from="1549265231837" duration="8913000" />
       <workItem from="1549283797379" duration="643000" />
+      <workItem from="1554801717558" duration="178000" />
+      <workItem from="1554893438690" duration="633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10753000" />
+    <option name="totallyTimeSpent" value="11564000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="993" y="27" width="917" height="1053" extended-state="4" />
+    <frame x="722" y="25" width="1198" height="1055" extended-state="4" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25487944" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19791667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -231,8 +194,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="240">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>

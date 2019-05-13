@@ -11,8 +11,8 @@
 #define WIDTH 640
 #define HEIGHT 480
 
-#define VIDEOWIDTH 320
-#define VIDEOHEIGHT 240
+#define VIDEOWIDTH 640
+#define VIDEOHEIGHT 480
 
 using namespace std;
 
@@ -88,7 +88,7 @@ int main(int argc, char **argv) {
 
             // Apply a video filter
             "--video-filter", "sepia",
-            "--sepia-intensity=200"
+            "--sepia-intensity=1"
     };
 
     int vlc_argc = sizeof(vlc_argv) / sizeof(*vlc_argv);
@@ -114,7 +114,7 @@ int main(int argc, char **argv) {
             SDL_WINDOWPOS_UNDEFINED,
             SDL_WINDOWPOS_UNDEFINED,
             WIDTH, HEIGHT,
-            SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
+            SDL_WINDOW_SHOWN | SDL_WINDOW_MINIMIZED);
     if (!window) {
         cerr << "Couldn't create window" << SDL_GetError() << endl;
         quit(3);
@@ -141,8 +141,6 @@ int main(int argc, char **argv) {
     cout <<"VLC_PLUGIN_PATH" << getenv("VLC_PLUGIN_PATH") << endl;
 
 
-
-
     // Load the VLC engine
     libvlc = libvlc_new(0, NULL);
 //    libvlc = libvlc_new(vlc_argc, vlc_argv);
@@ -156,7 +154,8 @@ int main(int argc, char **argv) {
 
 
 //    media = libvlc_media_new_location(my_instance, "/home/geo/Desktop/song.mp3");
-    m = libvlc_media_new_path(libvlc, "../songs/song.mp3");
+    m = libvlc_media_new_path(libvlc, "../songs/song1.mkv");
+//    m = libvlc_media_new_path(libvlc, "./songs/song1.mkv");
 //    m = libvlc_media_new_path(libvlc, argv[1]);
 
     // Create a player
@@ -203,7 +202,7 @@ int main(int argc, char **argv) {
             context.n++;
         }
 
-        SDL_Delay(1000/10);
+        SDL_Delay(1000/1);
     }
 
     // Stop stream and clean up libVLC

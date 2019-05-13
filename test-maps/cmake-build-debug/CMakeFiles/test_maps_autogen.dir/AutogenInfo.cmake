@@ -1,0 +1,35 @@
+# Meta
+set(AM_MULTI_CONFIG "FALSE")
+set(AM_PARALLEL "4")
+set(AM_VERBOSITY "")
+# Directories
+set(AM_CMAKE_SOURCE_DIR "/home/geo/Projects/C++/test-maps")
+set(AM_CMAKE_BINARY_DIR "/home/geo/Projects/C++/test-maps/cmake-build-debug")
+set(AM_CMAKE_CURRENT_SOURCE_DIR "/home/geo/Projects/C++/test-maps")
+set(AM_CMAKE_CURRENT_BINARY_DIR "/home/geo/Projects/C++/test-maps/cmake-build-debug")
+set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
+set(AM_BUILD_DIR "/home/geo/Projects/C++/test-maps/cmake-build-debug/test_maps_autogen")
+set(AM_INCLUDE_DIR "/home/geo/Projects/C++/test-maps/cmake-build-debug/test_maps_autogen/include")
+# Files
+set(AM_SOURCES "/home/geo/Projects/C++/test-maps/main.cpp")
+set(AM_HEADERS "")
+set(AM_SETTINGS_FILE "/home/geo/Projects/C++/test-maps/cmake-build-debug/CMakeFiles/test_maps_autogen.dir/AutogenOldSettings.txt")
+# Qt
+set(AM_QT_VERSION_MAJOR 5)
+set(AM_QT_MOC_EXECUTABLE "/home/geo/Qt/5.12.1/gcc_64/bin/moc")
+set(AM_QT_UIC_EXECUTABLE "/home/geo/Qt/5.12.1/gcc_64/bin/uic")
+# MOC settings
+set(AM_MOC_SKIP "/home/geo/Projects/C++/test-maps/cmake-build-debug/qrc_resources.cpp")
+set(AM_MOC_DEFINITIONS "QT_CORE_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_POSITIONING_LIB;QT_PRINTSUPPORT_LIB;QT_QML_LIB;QT_QUICK_LIB;QT_WEBCHANNEL_LIB;QT_WEBENGINECORE_LIB;QT_WEBENGINEWIDGETS_LIB;QT_WEBENGINE_LIB;QT_WIDGETS_LIB")
+set(AM_MOC_INCLUDES "/home/geo/Projects/C++/test-maps/cmake-build-debug;/home/geo/Projects/C++/test-maps;/home/geo/Qt/5.12.1/gcc_64/include;/home/geo/Qt/5.12.1/gcc_64/include/QtCore;/home/geo/Qt/5.12.1/gcc_64/./mkspecs/linux-g++;/home/geo/Qt/5.12.1/gcc_64/include/QtGui;/home/geo/Qt/5.12.1/gcc_64/include/QtWidgets;/home/geo/Qt/5.12.1/gcc_64/include/QtWebEngine;/home/geo/Qt/5.12.1/gcc_64/include/QtWebEngineCore;/home/geo/Qt/5.12.1/gcc_64/include/QtQuick;/home/geo/Qt/5.12.1/gcc_64/include/QtQml;/home/geo/Qt/5.12.1/gcc_64/include/QtNetwork;/home/geo/Qt/5.12.1/gcc_64/include/QtWebChannel;/home/geo/Qt/5.12.1/gcc_64/include/QtPositioning;/home/geo/Qt/5.12.1/gcc_64/include/QtWebEngineWidgets;/home/geo/Qt/5.12.1/gcc_64/include/QtPrintSupport;/usr/include")
+set(AM_MOC_OPTIONS "")
+set(AM_MOC_RELAXED_MODE "")
+set(AM_MOC_MACRO_NAMES "Q_OBJECT;Q_GADGET;Q_NAMESPACE")
+set(AM_MOC_DEPEND_FILTERS "")
+set(AM_MOC_PREDEFS_CMD "/usr/bin/c++;-dM;-E;-c;/opt/clion/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp")
+# UIC settings
+set(AM_UIC_SKIP "/home/geo/Projects/C++/test-maps/cmake-build-debug/qrc_resources.cpp")
+set(AM_UIC_TARGET_OPTIONS "")
+set(AM_UIC_OPTIONS_FILES "")
+set(AM_UIC_OPTIONS_OPTIONS "")
+set(AM_UIC_SEARCH_PATHS "")

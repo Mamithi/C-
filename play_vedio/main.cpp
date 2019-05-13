@@ -19,7 +19,7 @@ int main(int argc, char **argv) {
     }
 
     Mix_OpenAudio(22050, AUDIO_S16SYS, 2, 640);
-    Mix_Music *music = Mix_LoadMUS("song.mp3");
+    Mix_Music *music = Mix_LoadMUS("./song.mkv");
     Mix_PlayMusic(music, 1);
 
     while (!SDL_QuitRequested()) {

@@ -1,0 +1,3 @@
+/home/geo/Projects/C++/osg_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/geo/Projects/C++/osg_project/cmake-build-debug/CMakeFiles/osg_project.dir
+/home/geo/Projects/C++/osg_project/cmake-build-debug/CMakeFiles/edit_cache.dir

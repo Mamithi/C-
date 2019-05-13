@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/basic2_c.dir/main.c.o  -o basic2_c -lgobject-2.0 -lglib-2.0 

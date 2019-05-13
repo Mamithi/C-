@@ -1,0 +1,4 @@
+/home/geo/Projects/C++/ui-test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/geo/Projects/C++/ui-test/cmake-build-debug/CMakeFiles/ui_test.dir
+/home/geo/Projects/C++/ui-test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/geo/Projects/C++/ui-test/cmake-build-debug/CMakeFiles/ui_test_autogen.dir

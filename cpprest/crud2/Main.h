@@ -33,16 +33,17 @@ using namespace std;
 class Main {
 public:
     pplx::task<void> getMethod() {
-        json1 res =  getJson();
-        for(json1::iterator it = res.begin(); it != res.end(); ++it) {
-                std::wcout << it.key() << it.value()  << endl;
-        }
+        getJson();
+//        json1 res =  getJson();
+//        for(json1::iterator it = res.begin(); it != res.end(); ++it) {
+//                std::wcout << it.key() << it.value()  << endl;
+//        }
 //        displayJson(res);
 
     }
 
     json1 getJson() {
-        http_client client(U("http://first.test/api/test"));
+        http_client client(U("http://first.test/api/assets"));
 
         http_response response = client.request(methods::GET).get();
 
@@ -51,7 +52,7 @@ public:
         std::wcout << stream.str();
 
         stream.str(std::wstring());
-//            stream << L"Content length: " << response.headers().content_length() << L"bytes" << std::endl;
+//        stream << L"Content length: " << response.headers().content_length() << L"bytes" << std::endl;
         std::wcout << stream.str();
 
         auto bodyStream = response.body();
@@ -64,13 +65,11 @@ public:
         stream << L"Stream body: " << target.c_str();
         std::wcout << stream.str() << endl;
 
-        json1 jValue = json1::parse(stream.str());
+//        json1 jValue = json1::parse(stream.str());
 
-
-        return jValue;
+//        return jValue;
 
     }
-
 
 
     json::value jsonResponse() {

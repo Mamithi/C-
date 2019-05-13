@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SimpleCppRest.dir/main.cpp.o  -o SimpleCppRest -lssl -lcrypto -lboost_system -lcpprest 

@@ -1,0 +1,16 @@
+ gst-launch-1.0 -e v4l2src ! video/x-raw-yuv, framerate=10/1, width=320, height=240 ! ffmpegcolorspace ! x264enc bitrate=256 ! flutsmux ! filesink location=webcam.ts
+
+ gst-launch-1.0 rtspsrc location=rtsp://admin:pangani123@192.168.1.240:554/LiveMedia/ch1/Media1 is-live=true ! x264enc ! mpegtsmux ! hlssink max-files=5
+
+
+gst-launch-1.0 videotestsrc is-live=true ! x264enc ! mpegtsmux ! hlssink max-files=2 target-duration=1
+
+
+ gst-launch-1.0 rtspsrc location=rtsp://admin:pangani123@192.168.1.240:554/LiveMedia/ch1/Media1 ! rtph264depay ! decodebin ! autovideosink ! mpegtsmux ! hlssink max-files=2 target-duration=1
+
+ 	
+gst-launch-1.0 -v -e rtspsrc location=rtsp://admin:pangani123@192.168.1.240:554/LiveMedia/ch1/Media1 ! queue ! rtph264depay ! h264parse  ! mpegtsmux ! hlssink max-files=2 target-duration=1
+
+gst-launch-1.0 rtspsrc location=rtsp://admin:pangani123@192.168.1.240:554/LiveMedia/ch1/Media1 '!' rtph264depay '!' h264parse '!' fluh264dec '!' videoconvert '!' hlssink playlist-root=http://192.168.1.8/~silentm/hlssink location=/home/silentm/public_html/hlssink/hlssink.%05d.ts target-duration=1 max-files=3 playlist-length=3 playlist-location=/home/silentm/public_html/hlssink/playlist.m3u8
+
+gcc basic-tutorial-2.c -o basic-tutorial-2 `pkg-config --cflags --libs gstreamer-1.0`
