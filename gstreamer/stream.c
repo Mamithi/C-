@@ -45,7 +45,7 @@ int main(int argc, char** argv){
         return -1;
     }
 
-    g_object_set(G_OBJECT(data.source), "location", "rtsp://admin:pangani123@192.168.1.240:554/LiveMedia/ch1/Media1", NULL);
+    g_object_set(G_OBJECT(data.source), "location", "rtsp://FACEREC:QWERTY12345@192.168.1.5:554/cam/realmonitor?channel=1&subtype=1", NULL);
     g_object_set(G_OBJECT(data.hlssink), "max-files", 5, NULL);
     g_object_set(G_OBJECT(data.hlssink), "target-duration", 1, NULL);
 

@@ -1,3 +1,5 @@
+gcc stream.c -o stream `pkg-config --cflags --libs gstreamer-1.0` 
+ 
  gst-launch-1.0 -e v4l2src ! video/x-raw-yuv, framerate=10/1, width=320, height=240 ! ffmpegcolorspace ! x264enc bitrate=256 ! flutsmux ! filesink location=webcam.ts
 
  gst-launch-1.0 rtspsrc location=rtsp://admin:pangani123@192.168.1.240:554/LiveMedia/ch1/Media1 is-live=true ! x264enc ! mpegtsmux ! hlssink max-files=5
@@ -27,3 +29,11 @@ gst-launch-1.0 -e rtspsrc location=rtsp://admin:pangani123@192.168.1.240:554/Liv
 
 ************ Webcam ********************
 gst-launch-1.0 v4l2src device=/dev/video0 ! autovideosink
+
+gst-launch-1.0 v4l2src device=/dev/video0 ! queue ! x264enc ! mp4mux ! filesink location=video.mp4
+
+gst-launch-1.0 -e rtspsrc location=rtsp://admin:pangani123@192.168.1.240:554/LiveMedia/ch1/Media1 ! splitmuxsink location=storage/%04d.mp4 max-size-time=10000000000
+gst-launch-1.0 -e rtspsrc location=rtsp://192.168.1.0:1/stream ! rtph264depay ! h264parse ! mp4mux ! filesink location=file.mp4
+
+gst-launch-1.0 -e rtspsrc location=rtsp://admin:pangani123@192.168.1.240:554/LiveMedia/ch1/Media1 ! rtph264depay ! h264parse ! splitmuxsink location="record%05d.mp4" max-size-time=10000000000 
+
